@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 10px;
+            padding: 0px;
+        }
+        .navbar-brand{
+            color: green;
+        }
+        .nav-item{
+            
+            justify-content: end;
+        }
+        .contact{
+            text-align: center;
+        }
+        .navbar-brand{
+            /* margin-left: 70px; */
+            margin-right: 600px;
+        }
+        #carouselExampleDark{
+            margin-top: 50px;
+        }
+        #btn{
+           margin-left: 100px;
+        }
+        .card{
+            border-top-color: green;
+            border-bottom-color:green;
+            border-width: 3px;
+        }
+        .locaton{
+          display: flex;
+        }
+        .call{
+          display: flex;
+        }
+        .image{
+          width: 50px;
+          height: 30px;
+          /* background-color: bisque; */
+
+        }
+        /* .image1{
+          width: 50px;
+          height: 30px;
+        } */
+        #para1{
+          font-size: x-small;
+        }
+        .form-label{
+          margin-top: 20px;
+        }
+        /* s */
+       
+        /* .mb-2{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        } */
+        
+        /* #para{
+            margin-left: 50px;
+            margin-right: 50px;
+        } */
+        /* .btn{
+           align-items: center;
+            margin-bottom: 50px;
+        } */
+        .email{
+          display: flex;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">GREEN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Potfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Teams</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+              <button class="btn btn-outline-success" type="submit">Get Started</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="contact">
+        <h2>CONTACT</h2>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, eum sunt. Illum, nesciunt quas quibusdam fugit reiciendis dolorem consequuntur doloremque soluta distinctio deserunt temporibus tenetur quia voluptatum laudantium error dolores?</p>
+      </div>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="card">
+            <div class="card-body">
+             <div class="locaton">
+              <div class="image">
+                <img src="https://cdn-icons-png.flaticon.com/128/2991/2991231.png" 
+                width ="20px" height="20px">
+              </div>
+              <div>
+                Location:
+                <p id="para1">A108 Adlesn Street New York NY 535022</p>
+              </div>
+              
+             </div>
+             
+             <div class="email">
+              <div class="image">
+                <img src="https://img.icons8.com/windows/344/new-post.png" 
+                width ="30px" height="30px">
+              </div>
+
+             <div>
+              Email:
+              <p id="para1">info@example.com</p>
+             </div>
+              
+             </div>
+             <div class="call">
+              <div class="image">
+                <img src="https://cdn-icons-png.flaticon.com/512/126/126509.png" 
+                width ="30px" height="30px">
+              </div>
+              <div>
+                Call
+                <p id="para1">+1 5509785843</p>
+              </div>
+              </div>
+              <img src="https://www.mapsofindia.com/mumbai/mumbai-map.jpg" 
+              width="500px" height="200px">
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+                <!-- <div class="mb-2">
+                    <label for="exampleFormControlInput1" class="form-label">Your Name</label><br>
+                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="enter name">
+                    <label for="exampleFormControlInput2" class="form-label">Your Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <label for="exampleFormControlInput3" class="form-label">Subject</label><br>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"><br>
+                </div> -->
+                <div class="row  ">
+                    <div class="col">
+                        <label for="exampleFormControlInput1">Your name</label>
+                      <input type="text" class="form-control" placeholder="enter name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                        <label for="exampleFormControlInput2">Email</label>
+                      <input type="text" class="form-control" placeholder="name@example.com" aria-label="Last name">
+                    </div>
+                  </div>
+                  <label for="exampleFormControlInput3" class="form-label">Subject</label><br>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"><br>
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button class="btn btn-outline-success" type="submit">Send Message</button>        
+            </div>
+          </div>
+        </div>
+      </div>
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
+</body>
+</html>
